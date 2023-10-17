@@ -1,0 +1,78 @@
+.corpo-app {
+    display: flex;
+    margin: 50px;
+}
+
+.lista-personagem {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #AFAFAF;
+}
+
+.informacoes-detalhadas {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #AFAFAF;
+    width: 520px;
+    height: 500px;
+    margin: 0 50px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.informacoes-input {
+    display: flex;
+    height: 50px;
+    gap: 10px;
+    align-items: center;
+}
+
+.informacoes-input input {
+    display: flex;
+    height: 20px;
+}
+
+.informacoes-input button {
+    width: 100px;
+    height: 30px;
+    padding: 1px;
+    background-color: #0080FF;
+    color: #fff;
+}
+
+
+.card-personagem {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F3F3;
+    width: 500px;
+    height: 180px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #AFAFAF;
+    margin: 10px;
+}
+
+.card-personagem img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 0 20px;
+}
+
+.body {
+    background-color: #fff;
+    margin: 10px 0;
+    max-width: 90vw;
+    border-radius: 5px;
+}
